@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 25px;
+    left: 0px;
+    bottom: 0;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 25px !important;
+    width: 50%;
+    top: 0px;
+}
+
+.btn-success:hover {
+    background-color: sandybrown;
+}
+
+canvas {
+    border: 3px dotted orange;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes border {
+    from {
+        border: 3px dotted orange;
+    }
+
+    to {
+        border: 3px dotted blue;
+    }
+}
