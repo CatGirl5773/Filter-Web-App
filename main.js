@@ -27,7 +27,7 @@ function modelLoaded() {
 function gotPoses(results) {
     if(results.length > 0) {
         console.log(results);
-        console.log("Mouth x = " + results[0].pose.mouth.x);
-        console.log("Mouth y = " + results[0].pose.mouth.y);
+        console.log("Nose x = " + results[0].pose.nose.x);
+        console.log("Nose y = " + results[0].pose.nose.y);
     }
 }
